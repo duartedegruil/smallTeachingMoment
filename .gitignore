@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+out/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio / Windows
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code, if ever used
+.vscode/
+
+# .NET test results and coverage
+TestResults/
+*.trx
+coverage/
+coverage.xml
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider local caches / temp
+.idea_modules/
+*.DotSettings.user
+
+# Environment files
+.env
+.env.*
+!.env.example
